@@ -1,0 +1,25 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+code, pre { margin-bottom: 30px; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal; font-size: 14px; color: #222; }
+
+code { padding: 0 3px; background-color: #f2f2f2; border: solid 1px #ddd; }
+
+pre {padding: 20px;overflow: auto;color: #f2f2f2;text-shadow: none;background: #303030;}
+
+pre code { padding: 0; color: #f2f2f2; background-color: #303030; border: none; }
+
+#viewer {width: 600px; height: auto;}
+.renderjson {width: 600px; height: auto;}
+.renderjson a { text-decoration: none; }
+.renderjson .disclosure { color: crimson;
+                        font-size: 150%; }
+.renderjson .syntax { color: grey; }
+.renderjson .string { color: darkturquoise; }
+.renderjson .number { color: darkcyan; }
+.renderjson .boolean { color: blueviolet; }
+.renderjson .key    { color: yellow; }
+.renderjson .keyword { color: blue; }
+.renderjson .object.syntax { color: lightseagreen; }
+.renderjson .array.syntax  { color: orange; }
